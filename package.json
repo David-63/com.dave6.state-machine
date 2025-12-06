@@ -1,0 +1,24 @@
+{
+  "name": "com.dave6.state-machine",
+  "version": "0.0.1",
+  "displayName": "State Machine",
+  "description": "Minimal state machine utilities for clean and modular gameplay logic.",
+  "unity": "6000.0",
+  "unityRelease": "0",
+  "documentationUrl": "https://github.com/David-63/com.dave6.state-machine#readme",
+  "changelogUrl": "https://github.com/David-63/com.dave6.state-machine/releases",
+  "licensesUrl": "https://github.com/David-63/com.dave6.state-machine/blob/main/LICENSE",
+  "keywords": [
+    "state-machine",
+    "modular"
+  ],
+  "author": {
+    "name": "David-63",
+    "email": "jiseop.63@gmail.com",
+    "url": "https://github.com/David-63"
+  },
+  "dependencies": {
+    "com.dave6.unity-utils": "0.0.1",
+    "com.dave6.unity-timer": "0.0.1"
+  }
+}

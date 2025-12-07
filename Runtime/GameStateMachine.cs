@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Dave6.StateMachine
 {
-    public class StateMachine
+    public class GameStateMachine
     {
         StateNode currentNode;
         Dictionary<Type, StateNode> nodes = new();

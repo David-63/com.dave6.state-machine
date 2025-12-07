@@ -10,6 +10,7 @@ namespace Dave6.StateMachine
         HashSet<ITransition> anyTransitions = new();
 
         public IState CurrentState => currentNode.State;
+        public IState GetStateByType(Type type) => nodes[type].State;
 
         public void Update()
         {

@@ -1,6 +1,6 @@
 {
   "name": "com.dave6.state-machine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "displayName": "Dave State Machine",
   "description": "Minimal state machine utilities for clean and modular gameplay logic.",
   "unity": "6000.0",
@@ -16,8 +16,5 @@
     "name": "David-63",
     "email": "jiseop.63@gmail.com",
     "url": "https://github.com/David-63"
-  },
-  "dependencies": {
-    "com.dave6.timer": "0.0.1"
   }
 }

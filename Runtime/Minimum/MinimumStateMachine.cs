@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Dave6.StateMachine
 {
-    public class GameStateMachine
+    public class MinimumStateMachine
     {
         StateNode currentNode;
         Dictionary<Type, StateNode> nodes = new();
@@ -83,6 +83,11 @@ namespace Dave6.StateMachine
             }
             return node;
         }
+
+        
+        public void At(IState from, IState to, IPredicate condition) => AddTransition(from, to, condition);
+        public void Any(IState to, IPredicate condition) => AddAnyTransition(to, condition);
+
         class StateNode
         {
             public IState State { get; }

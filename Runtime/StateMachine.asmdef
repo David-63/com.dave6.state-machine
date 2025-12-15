@@ -1,9 +1,7 @@
 {
     "name": "StateMachine",
     "rootNamespace": "Dave6.StateMachine",
-    "references": [
-        "GUID:acb680708cfad1644a5c42ac93cd3b14"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
